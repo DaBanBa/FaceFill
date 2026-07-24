@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avatarface"
+version = "0.2.0"
+description = "ARKit morph completion through CV"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "torch>=2.2.0",
+  "numpy>=1.26.0",
+  "tqdm>=4.66.0",
+  "opencv-python-headless>=4.8.0",
+  "mediapipe>=0.10.14",
+  "PyYAML>=6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,30 @@
+# secrets / local
+.env
+.env.*
+!.env.example
+.venv/
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# MEAD videos + extracted NPZs (keep local only)
+data/raw/
+data/processed/
+
+# trained weights (publish ONNX on Hugging Face instead)
+artifacts/
+*.pt
+*.onnx
+
+# MediaPipe model file (download on demand)
+assets/
+
+# not needed for notebook / README clone
+mvp
+scripts/
+tests/
+demo/
+preVRIntegration/
