@@ -1,4 +1,4 @@
-# AvaFace 1.0
+# AvatarFace 1.0
 
 *2026 · VR · CV · Neural Nets*
 
