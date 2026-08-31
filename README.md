@@ -1,7 +1,5 @@
 # FaceFill
 
-*2026 · VR · CV · Neural Nets*
-
 ## Project Summary
 
 I read Snow Crash a while back, and one aspect that stood out was the focus on avatars — especially Juanita’s push for realistic facial expression.
