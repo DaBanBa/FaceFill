@@ -1,4 +1,4 @@
-# AvatarFace 1.0
+# FaceFill
 
 *2026 · VR · CV · Neural Nets*
 
